@@ -1,0 +1,248 @@
+body {
+  width: 100%;
+  margin-left: -20%;
+  background-color: #25316D ;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #4e7d8d;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #c8c1c8;
+  margin-left: 57%;
+}
+.set {
+  margin-left: 40%;
+  height: 470px;
+}
+.drum {
+  background-size:100% ;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 70%;
+ text-align: center; 
+ font-family: "Arvo", cursive;
+ font-size: 3rem;
+ color:#c8c1c8 ;
+  
+}
+.upper_tom{
+  margin-left: 21.5%;
+  margin-bottom: -1%;
+}
+.a {
+  position: relative;
+  background-image: url("images/drum.webp");
+  width: 200px;
+  height: 200px;
+  border-radius: 30%;
+  transform: rotate(20deg);
+  z-index: 2;
+}
+.s {
+  position: relative;
+  background-image: url("images/drum.webp");
+  width: 210px;
+  height: 210px;
+  border-radius: 30%;
+  transform: rotate(-20deg);
+  z-index: 4;
+}
+.set_1{
+  position: relative;
+  height: 120px;
+  width: 450px;
+  background-color: white;
+  margin:-10% 0 0 20% ;
+}
+.mid_set{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin-top: -6.5%;
+}
+.d {
+  position: absolute;
+  background-image: url("images/tom1.jpg");
+  margin-left:16%;
+  width: 250px;
+  height: 250px;
+  border-radius: 20%;
+}
+
+.k {
+  position: absolute;
+  background-image: url("images/kick.jpeg");
+  width: 270px;
+  height: 270px;
+  margin:0.35% 0 0 36%;
+  z-index: 5;
+  border-radius: 40%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+
+}
+
+.w {
+  position:absolute;
+  background-image: url("images/tom1.jpg");
+  width: 250px;
+  height: 250px;
+  background-size:110%;
+  border-radius: 10%;
+  margin:2.5% 0 0 60%;
+  
+  }
+.j {
+  position: absolute;
+  background-image: url("images/crash3.jpg");
+  width: 200px;
+  height: 300px;
+  border-radius: 20%;
+  margin:-9.5% 0 0 2.3%;
+  z-index: 1;
+}
+.l {
+  position: absolute;
+  background-image: url("images/snare3.jpg");
+  width: 250px;
+  height: 250px;
+  margin:-18% 0 0 65%;
+  padding-bottom: 8%;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.99;
+}
+footer {
+  color: #ffffff;
+  font-family: sans-serif;
+  margin: 2% 0 0 0;
+  margin-left: 65%;
+
+}
+
+@media only screen and (max-width:1200px)
+{
+body{
+    margin-left:0%;
+  }
+  .set {
+    margin-left: 1%;
+    height: 470px;
+  }
+  h1 {
+    font-size: 2rem;
+    color: #4e7d8d;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #c8c1c8;
+    margin:25%  0;
+    text-align: center;
+  }
+  
+ .upper_tom{
+  margin-bottom: -3%;
+}
+.drum {
+  background-size:100% ;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 70%;
+ text-align: center; 
+ font-family: "Arvo", cursive;
+ font-size: 1.5rem;
+ color:#c8c1c8 ;  
+}
+.a {
+  position: relative;
+  background-image: url("images/drum.webp");
+  width: 70px;
+  height: 70px;
+  margin-left: 3.5%;
+  border-radius: 30%;
+  transform: rotate(20deg);
+  z-index: 2;
+}
+.s {
+  position: relative;
+  background-image: url("images/drum.webp");
+  width: 100px;
+  height: 100px;
+  margin-left: 1%;
+  border-radius: 30%;
+  transform: rotate(-20deg);
+  z-index: 5;
+}
+
+.set_1{
+  
+  position: relative;
+  height: 60px;
+  width: 250px;
+  background-color: white;
+  margin:-13.5% 0 0 20% ;
+}
+.mid_set{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin-top: -7%;
+}
+.d {
+  position: absolute;
+  background-image: url("images/tom1.jpg");
+  margin-top:5%;
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  z-index: 2;
+}
+
+.k {
+  position: absolute;
+  background-image: url("images/kick.jpeg");
+  width: 120px;
+  height: 120px;
+  margin-top:0.5%;
+  z-index: 5;
+  border-radius: 40%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+
+}
+
+.w {
+  position:absolute;
+  background-image: url("images/tom1.jpg");
+  width: 110px;
+  height: 110px;
+  background-size:110%;
+  border-radius: 10%;
+  /* margin:2.5% 0 0 60%; */
+  
+  }
+.j {
+  position: absolute;
+  background-image: url("images/crash3.jpg");
+  width: 100px;
+  height: 150px;
+  border-radius: 20%;
+  /* margin:-9.5% 0 0 2.3%; */
+  z-index: 1;
+}
+.l {
+  position: absolute;
+  background-image: url("images/snare3.jpg");
+  width: 120px;
+  height: 120px;
+  /* margin:-18% 0 0 65%; */
+  padding-bottom: 8%;
+}
+
+  footer {
+    color: #ffffff;
+    font-family: sans-serif;
+    margin: 2% 0 0 0;
+text-align: center;  
+  }
+
+}
